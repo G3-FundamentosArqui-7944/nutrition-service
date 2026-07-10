@@ -29,7 +29,7 @@ public class MealRecord extends AuditableAbstractAggregateRoot<MealRecord> {
     private MealType mealType;
 
     @Getter
-    @Column(nullable = false, length = 200)
+    @Column(nullable = false, length = 500)
     private String description;
 
     @Embedded
